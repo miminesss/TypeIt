@@ -93,6 +93,21 @@
 	width: 100%;
 }
 
+#fcolors {
+	background-color: black;
+	bottom: 0;
+	width: 100%;
+	margin-top: 15em;
+}
+
+#fcolorss {
+	background-color: black;
+	bottom: 0;
+	width: 100%;
+	margin-top: 25em;
+}
+
+
 #mrgn {
 	margin-bottom: 20%;
 }
