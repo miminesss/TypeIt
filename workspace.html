@@ -21,8 +21,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
 <body>
-	<div class="container-fluid" id="bgpic4">
-		<!-- navbar -->
+	<div class="container-fluid" id="bgpic">
+<!-- navbar -->
 		<nav class="navbar navbar-inverse" id="opa">
 		  <div class="container-fluid">
 		    <div class="navbar-header" id="leftminus">
@@ -36,8 +36,8 @@
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav">
 				  <li><a href="home.html" id="color-me">Home</a></li>
-				  <li><a href="#" id="color-me">My Library</a></li>
-				  <li><a href="#" id="color-me">Work Space</a></li>
+				  <li><a href="library.html" id="color-me">My Library</a></li>
+				  <li><a href="workspace.html" id="color-me">Work Space</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
 		      		<li class="dropdown" id="sizee">
@@ -45,7 +45,6 @@
 			        <!-- <span class="caret"></span></a> -->
 			        <ul class="dropdown-menu">
 			        	<li><a href="profile.html"><span class="glyphicon glyphicon-star-empty"></span>  My Profile</a></li>
-			        	<li><a href="profile.html"><span class="glyphicon glyphicon-cog"></span>  Settings</a></li>
 			          	<li><a href="lpage.html"><span class="glyphicon glyphicon-log-out"></span>  Logout</a></li>
 			        </ul>
 			        </li>
@@ -55,92 +54,37 @@
 		</nav> <!-- end of navbar -->
 
 		<div class="row">
-			<div class="col-lg-3">
-			</div>
-			<div class="col-lg-6">
-			<div class="panel-body" id="paneopa">
-				<img src="assets/dp.jpg" id="dp">
-				<!-- Trigger the modal with a button -->
-				<button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal" id="upload"><i class="fa fa-camera" aria-hidden="true"></i></button>
-
-				<!-- Modal -->
-				<div id="myModal" class="modal fade" role="dialog">
-				  <div class="modal-dialog">
-
-				    <!-- Modal content-->
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal">&times;</button>
-				        <h4 class="modal-title">Upload Profile Picture</h4>
-				      </div>
-				      <div class="modal-body">
-				        <form action method>
-				        	<input type="file" name="displayPic"></input>
-				        	<input type="submit" name="displayPic"></input>
-				        </form>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-			</div>
-			</div>
-			<div class="col-lg-3"></div>
-		</div>
-		<div class="row">
 			<div class="col-lg-2"></div>
 			<div class="col-lg-8">
-				<div class="panel panel-default">
-				  	<div class="panel-body" id="pane">
-				  		<h3 id="bio">Miminessssss </h3>
-				  		<h5 id="bio"> Dogs ♥ Cats ♥ Tea </h5>
-				  	</div>
+				<div class="panel panel-default" id="mrgn">
+					<div class="form-group">
+					  <label for="title">Title:</label>
+					  <input type="text" class="form-control" id="title">
+					  <div class="form-group">
+					  <label for="sel1">Type</label>
+					  <select class="form-control" id="sel1">
+					    <option>Novel</option>
+					    <option>Poetry</option>
+					    <option>One Shot</option>
+					    <option>Short Story</option>
+					  </select>
+					</div>
+					</div>
+					<div class="form-group">
+					  <label for="comment"></label>
+					  <textarea class="form-control" rows="5" id="comment" placeholder="Type your master piece"></textarea>
+					</div>  
+					<button type="button" class="btn btn-warning">Submit</button>
 				</div>
 			</div>
 			<div class="col-lg-2"></div>
 		</div>
-
-		<div class="row">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				<div class="panel panel-default" id="paneopa">
-				  	<div class="panel-body">
-				  		<div class="row">
-				  			<div class="col-lg-4" id="borderr">
-				  				<h5 id="line2">Published Works: 0 </h5>
-				  			</div>
-				  			<div class="col-lg-4" id="borderr">
-				  				<h5 id="line2">Unpublished Works: 0 </h5>
-				  			</div>
-				  			<div class="col-lg-4" id="borderr">
-				  				<h5 id="line2">Followers: 0 </h5>
-				  			</div>
-				  		</div>
-				  	</div>
-				</div>
-			</div>
-			<div class="col-lg-2"></div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				<div class="panel panel-default">
-				  	<div class="panel-body" id="pane1">
-				  		<h5 id="bio"> No Works Yet </h5>
-				  	</div>
-				</div>
-			</div>
-			<div class="col-lg-2"></div>
-		</div>
-
 		
-		<div class="footer" id="fcolor">
+		
+		<div class="footer" id="fcolo">
 			<div class="row">
 				<div class="col-sm-4 col-lg-3">
-					<p id="likemee"><p>Copyright© | Michelle Bobosa | 2018</p></p>
+					<p id="likemee">Copyright© | Michelle Bobosa | 2018</p>
 				</div>
 				<div class="col-lg-3"></div>
 				<div class="col-lg-3"></div>

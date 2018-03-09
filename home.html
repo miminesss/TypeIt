@@ -22,7 +22,7 @@
 </head>
 <body>
 	<div class="container-fluid" id="bgpic3">
-		<!-- navbar -->
+<!-- navbar -->
 		<nav class="navbar navbar-inverse" id="opa">
 		  <div class="container-fluid">
 		    <div class="navbar-header" id="leftminus">
@@ -36,11 +36,18 @@
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav">
 				  <li><a href="home.html" id="color-me">Home</a></li>
-				  <li><a href="#" id="color-me">My Library</a></li>
-				  <li><a href="#" id="color-me">Work Space</a></li>
+				  <li><a href="library.html" id="color-me">My Library</a></li>
+				  <li><a href="workspace.html" id="color-me">Work Space</a></li>
 		      </ul>
 		      <ul class="nav navbar-nav navbar-right">
-		      	  <li><a href="profile.html" id="color-me"><span class="glyphicon glyphicon-user"></span> Miminess</a></li>
+		      		<li class="dropdown" id="sizee">
+		      		<a class="dropdown-toggle" data-toggle="dropdown" href="profile.html" id="color-me"><span class="glyphicon glyphicon-user"></span>Miminessssss</a>
+			        <!-- <span class="caret"></span></a> -->
+			        <ul class="dropdown-menu">
+			        	<li><a href="profile.html"><span class="glyphicon glyphicon-star-empty"></span>  My Profile</a></li>
+			          	<li><a href="lpage.html"><span class="glyphicon glyphicon-log-out"></span>  Logout</a></li>
+			        </ul>
+			        </li>
 		      </ul>
 		    </div>
 		  </div>
@@ -49,16 +56,17 @@
 		<!-- main -->
 		<div class="row">
 			<div class="col-sx-12 col-sm-6 col-md-4 col-lg-3">
-				<img src="assets/book1.jpg"
-				id="booksize">
+				<a href="book3.html"><img src="assets/book1.jpg"
+				id="booksize"></a>
 				<!-- Left-aligned -->
 				<div class="media" id="opa">
 				  <div class="media-left">
-				    <img src="assets/me.jpg" class="media-object" style="width:60px" id="mediasize">
+				  	<a href="user.html">
+				    <img src="assets/me.jpg" class="media-object" style="width:60px" id="mediasize"></a>
 				  </div>
 				  <div class="media-body">
-				    <h4 class="media-heading" id="neym">Queen Bee</h4>
-				    <p id="neym">Posted: Today</p>
+				    <h4 class="media-heading" id="neym"><a href="user.html">Queen Bee</h4></a>
+				    <p id="neym">Updated: Today</p>
 				    <p id="neym"><a href="#" data-toggle="modal" data-target="#myModal">Add to Library <i class="fa fa-plus-square" aria-hidden="true"></a></i></p>
 				  </div>
 				</div>
